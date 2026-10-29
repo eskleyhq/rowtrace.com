@@ -9,3 +9,7 @@ rowtrace.com: the Rowtrace product pages, moved here from eskley.com/rowtrace/ o
 `/site.css` is the same stylesheet eskley.com uses, copied byte for byte from eskleyhq/eskley.com (main cd2fe47). It comes from the site design artifact (https://claude.ai/artifact/GwpeeyTrcBDFnjZhVnCkqn, version 1791922948-497d) and takes every value from `/tokens.css`. A change to it lands in both repos.
 
 Every page is `noindex` until Raymond says otherwise. Links to the company page go to https://eskley.com/. Yellow `Gap` marks are facts still owed; resolve or cut each one before a page goes live.
+
+## _private
+
+GitHub Pages doesn't publish folders whose names start with `_`. `_private/compare/backup-tools.html` is the comparison with other backup tools, taken off the site on 2026-10-29. Its old URL redirects to the Smartsheet comparison, and no page links to it. To bring it back, move it to `compare/` and add its links again.
