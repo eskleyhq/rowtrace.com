@@ -2,7 +2,7 @@
 <html lang="en" data-site="rowtrace">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Sign up for Rowtrace</title>
-<meta name="description" content="Sign up for a free 60-day Rowtrace trial code. Eskley emails you the code, and you paste it into Rowtrace when it opens.">
+<meta name="description" content="Sign up for Rowtrace and get a free 60-day trial code by email.">
 <meta name="robots" content="noindex, nofollow">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
 <link rel="stylesheet" href="/tokens.css"><link rel="stylesheet" href="/site.css">
@@ -15,34 +15,45 @@
 .signup-aside p { font-size: var(--text-sm); }
 @media (max-width: 860px) { .signup { grid-template-columns: minmax(0, 1fr); } .signup-aside { position: static; } .signup-form iframe { height: 1560px; } }
 </style>
+<style>
+.signup { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: var(--space-8); align-items: start; padding-bottom: var(--space-10); }
+.signup-form iframe { display: block; width: 100%; height: 1520px; border: 1px solid var(--border); border-radius: var(--radius-md); background: var(--surface); }
+.signup-aside { display: grid; gap: var(--space-6); position: sticky; top: var(--space-6); }
+.signup-aside h2 { font-size: var(--text-lg); }
+.signup-aside h3 { font-size: var(--text-base); }
+.signup-aside p { font-size: var(--text-sm); }
+</style>
 </head>
 <body>
 <header class="site-header"><div class="wrap bar">
 <a class="brand" href="/"><span class="mark mark-r m24" aria-hidden="true"><span>R</span></span><span class="wordmark">Rowtrace</span></a>
-<nav class="nav" aria-label="Rowtrace"><a href="/">Overview</a><a href="/compare/smartsheet-backup.html">Compare</a><a href="/compare/row-mapping-explained.html">How row mapping works</a><a href="/partners/">Partners</a></nav>
+<nav class="nav" aria-label="Rowtrace"><a href="/">Overview</a><a href="/compare/smartsheet-backup.html">Compare</a><a href="/partners/start/">Getting started</a><a href="/partners/">Partners</a></nav>
 <div class="bar-end"><a class="byline" href="https://eskley.com/"><span class="by-text">by</span> <span class="mark mark-e m16" aria-hidden="true"><span>e</span></span> <b>eskley</b></a>
 <a class="btn btn-primary" href="/signup/">Sign up</a></div>
 </div></header>
 <main>
-
-<div class="wrap"><div class="page-head"><span class="eyebrow">Sign up</span><h1>Sign up for a trial code</h1><p class="lead"><strong>Tell us who you are, and Eskley emails you a free 60-day trial code.</strong> You paste the code into Rowtrace the first time it opens.</p></div></div>
+<div class="wrap"><div class="page-head"><span class="eyebrow">Sign up</span><h1>Sign up for a trial code</h1>
+<p class="lead">Fill in the form and Eskley emails you a free 60-day trial code and the download link. You paste the code into Rowtrace the first time it opens.</p></div></div>
 <div class="wrap signup">
 <section class="sec signup-form" id="form"><h2>Your details</h2>
 <iframe src="https://app.smartsheet.com/b/form/01a15a6dbda07267a494ea2891eb1c15" title="Rowtrace sign-up form" loading="lazy"></iframe>
-<p class="small muted">If the form doesn't show, <a href="https://app.smartsheet.com/b/form/01a15a6dbda07267a494ea2891eb1c15" target="_blank" rel="noopener">open it in a new tab</a>.</p></section>
+<p class="small muted"><a href="https://app.smartsheet.com/b/form/01a15a6dbda07267a494ea2891eb1c15" target="_blank" rel="noopener">Open the form in a new tab</a></p></section>
 <aside class="signup-aside">
-<section class="sec" id="next"><h2>What happens next?</h2><ol class="steps"><li><h3>Get your code</h3><p>Eskley reads each sign-up and emails a trial code and the download link. The code is one line of text and runs for 60 days.</p></li><li><h3>Download Rowtrace</h3><p>You get the download link as soon as you submit the form, and it is in the email too. There is nothing to install.</p></li><li><h3>Sign in</h3><p>Rowtrace opens on Sign in. Paste the code, then connect to Smartsheet with your API token.</p></li></ol></section>
-<section class="sec" id="details"><h2>Where do my details go?</h2><p>Into a sheet in Eskley's Smartsheet account. None of it goes into Rowtrace, and your Smartsheet token never goes to Eskley. What happens to the token is on <a href="/partners/token/">Your token and your data</a>.</p></section>
-<section class="sec" id="tell"><h2>Questions?</h2><p>Email <a class="mono" href="mailto:raymond@eskley.com">raymond@eskley.com</a>.</p></section>
+<section class="sec" id="next"><h2>Next steps</h2><ol class="steps">
+<li><h3>Get your code</h3><p>Eskley emails a trial code and the download link to the address you gave. The code is one line of text and runs for 60 days.</p></li>
+<li><h3>Download Rowtrace</h3><p>You get the download link as soon as you submit the form, and it is in the email too.</p></li>
+<li><h3>Sign in</h3><p>Rowtrace opens on <strong>Sign in</strong>. Paste the code, then connect to Smartsheet with your API token. <a href="/partners/start/">Getting started</a> walks through the rest.</p></li>
+</ol></section>
+<section class="sec" id="details"><h2>Where your details go</h2><p>Into a sheet in Eskley's Smartsheet account. None of it goes into Rowtrace, and your Smartsheet token never goes to Eskley.</p></section>
 </aside>
 </div>
 </main>
 <footer class="site-footer"><div class="wrap">
 <div class="cols">
 <div><a class="brand" href="/"><span class="mark mark-r m24" aria-hidden="true"><span>R</span></span><span class="wordmark" style="font-size:1.125rem">Rowtrace</span></a>
-<p style="margin-top:12px">Backup for Smartsheet administrators. Made by <a href="https://eskley.com/">Eskley LLC</a>.</p></div>
-<div><div class="f-head">Rowtrace</div><ul><li><a href="/signup/">Sign up</a></li><li><a href="/partners/">Partner overview</a></li><li><a href="/partners/start/">Getting started</a></li><li><a href="/partners/token/">Your token and your data</a></li></ul></div>
-<div><div class="f-head">Compare</div><ul><li><a href="/compare/smartsheet-backup.html">vs. Smartsheet's backup</a></li><li><a href="/compare/backup-tools.html">vs. other backup tools</a></li><li><a href="/compare/row-mapping-explained.html">How row mapping works</a></li></ul></div>
+</div>
+<div><div class="f-head">Rowtrace</div><ul><li><a href="/signup/">Sign up</a></li><li><a href="/partners/start/">Getting started</a></li><li><a href="/partners/token/">Your token and your data</a></li><li><a href="/partners/">Design partners</a></li></ul></div>
+<div><div class="f-head">Compare</div><ul><li><a href="/compare/smartsheet-backup.html">vs. Smartsheet's backup</a></li><li><a href="/compare/backup-tools.html">vs. other backup tools</a></li></ul></div>
 <div><div class="f-head">Company</div><ul><li><a href="https://eskley.com/">eskley.com</a></li><li><a class="mono" href="mailto:raymond@eskley.com">raymond@eskley.com</a></li></ul></div>
-</div><div class="legal"><p>© 2026 Eskley LLC, a Utah limited liability company. Rowtrace is an independent product for Smartsheet and is not affiliated with or endorsed by Smartsheet Inc.</p></div></div></footer>
+</div><div class="legal"><p>© 2026 Eskley LLC. Rowtrace is an independent product for Smartsheet and is not affiliated with or endorsed by Smartsheet Inc.</p></div></div></footer>
 </body></html>
